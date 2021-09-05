@@ -375,7 +375,7 @@
           <h6 class="widget-head">About <span class="highlight">Midnight Show</span></h6>
           <p class="text-alt"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</small></p>
 
-          <img src="@/styles/img/team/midnight-logo.jpg" alt="CryptoWhale" width="120" class="img-responsive">
+          <img src="@/styles/img/ms-new.png" alt="logo" width="120" class="img-responsive">
         </div>
       </div>
 
