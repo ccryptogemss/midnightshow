@@ -15,10 +15,9 @@
     </ul>
     <div class="heading-block centered-block align-center">
       <div class="container">
-        <img src="@/styles/img/ms-logo.png" width="240px">
+        <img src="@/styles/img/ms-new.png" width="240px">
         <h5 class="heading-alt" style="margin-bottom: 8px;">The</h5>
         <h1 class="extra-heading">Midnight Show</h1>
-        <h6 class="thin base-font">The place where you can feel safe!</h6>
         <div class="btns-container">
           <a href="#about" class="btn btn-md" data-modal-link="email-ticket">About Us</a>
           <a href="#contact" class="btn btn-outline btn-md" data-modal-link="0">Contact</a>
@@ -32,7 +31,7 @@
       <div class="container">
         <div class="col-sm-2 col-xs-12 navigation-header">
           <a href="#" class="logo">
-            <img src="@/styles/img/ms-logo.png" width="80">
+            <img src="@/styles/img/ms-new.png" width="80">
           </a>
           <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
             <span class="icon-bar"></span>
@@ -59,7 +58,7 @@
     </div>
   </header>
 
-  <section id="about" class="section align-center">
+  <section id="about" class="section bg-gray align-center">
     <div class="container">
       <h3>The Midnight Show</h3>
       <p class="text-alt">Where the community safety is in the first place!</p>
@@ -82,7 +81,7 @@
         <div class="tab-content">
           <div id="horizontal_tab1" class="tab-pane fade active in">
             <div class="col-sm-5 img-column">
-              <img src="@/styles/img/ms-logo.png" width="240" class="img-responsive" />
+              <img src="@/styles/img/ms.jpg" width="240" class="img-responsive" />
             </div>
             <div class="col-sm-7 align-left">
               <h6>About event</h6>
@@ -109,13 +108,13 @@
             </div>
 
             <div class="col-sm-5 img-column">
-              <img src="@/styles/img/ms-logo.png" width="240" class="img-responsive" />
+              <img src="@/styles/img/ms.jpg" width="240" class="img-responsive" />
             </div>
           </div>
 
           <div id="horizontal_tab3" class="tab-pane fade">
             <div class="col-sm-5 img-column">
-              <img src="@/styles/img/ms-logo.png" width="240" class="img-responsive" />
+              <img src="@/styles/img/ms.jpg" width="240" class="img-responsive" />
             </div>
             <div class="col-sm-7 align-left">
               <h6>Sponsors apply</h6>
@@ -142,73 +141,71 @@
 
       <div class="row">
         <div class="col-sm-4">
-          <div class="package-column">
-            <h6 class="package-title">Silver</h6>
-            <div class="package-price">
-              <span class="currency">$</span>1500
+          <div class="package-column d-flex flex-column justify-content-between">
+            <div>
+              <div class="package-logo">
+                <img src="@/styles/img/gold-stamp.png" width="200px">
+              </div>
+              <div class="package-detail">
+                <ul>
+                  <li><span class="fa fa-check check-icon"></span>Team wallet vested</li>
+                  <li><span class="fa fa-check check-icon"></span>Public Presale (no whitelist)</li>
+                  <li><span class="fa fa-check check-icon"></span>Safe code. No backlist functions</li>
+                  <li><span class="fa fa-check check-icon"></span>Dev team history</li>
+                </ul>
+              </div>
             </div>
-            <div class="package-detail">
-              <ul>
-                <li><span class="fa fa-check check-icon"></span>Team wallet vested</li>
-                <li><span class="fa fa-check check-icon"></span>Public Presale (no whitelist)</li>
-                <li><span class="fa fa-check check-icon"></span>Safe code. No backlist functions</li>
-                <li><span class="fa fa-check check-icon"></span>Dev team history</li>
-                <li><span class="fa fa-times uncheck-icon"></span>Dev team fully doxxed to core team</li>
-                <li><span class="fa fa-times uncheck-icon"></span>Anti Rug BSC / Rug proof</li>
-                <li><span class="fa fa-times uncheck-icon"></span>Multi sig wallet</li>
-              </ul>
-            </div>
-            <a href="#" class="btn btn-lg btn-outline-clr">Buy now</a>
+            <a href="#" class="btn btn-lg btn-outline-clr">Select</a>
           </div>
         </div>
 
         <div class="col-sm-4">
-          <div class="package-column">
-            <h6 class="package-title">Gold</h6>
-            <div class="package-price">
-              <span class="currency">$</span>2000
+          <div class="package-column d-flex flex-column justify-content-between">
+            <div>            
+              <div class="package-logo">
+                <img src="@/styles/img/platinum-stamp.png" width="200px">
+              </div>
+              <div class="package-detail">
+                <ul>
+                  <li><span class="fa fa-check check-icon"></span>Team wallet vested</li>
+                  <li><span class="fa fa-check check-icon"></span>Public Presale (no whitelist)</li>
+                  <li><span class="fa fa-check check-icon"></span>Safe code</li>
+                  <li><span class="fa fa-check check-icon"></span>No backlist functions</li>
+                  <li><span class="fa fa-check check-icon"></span>Dev team fully doxxed to core team</li>
+                </ul>
+              </div>
             </div>
-            <div class="package-detail">
-              <ul>
-                <li><span class="fa fa-check check-icon"></span>Team wallet vested</li>
-                <li><span class="fa fa-check check-icon"></span>Public Presale (no whitelist)</li>
-                <li><span class="fa fa-check check-icon"></span>Safe code</li>
-                <li><span class="fa fa-check check-icon"></span>No backlist functions</li>
-                <li><span class="fa fa-check check-icon"></span>Dev team fully doxxed to core team</li>
-                <li><span class="fa fa-times uncheck-icon"></span>Anti Rug BSC / Rug proof</li>
-                <li><span class="fa fa-times uncheck-icon"></span>Multi sig wallet</li>
-              </ul>
-            </div>
-            <a href="#" class="btn btn-lg btn-outline-clr">Buy now</a>
+            <a href="#" class="btn btn-lg btn-outline-clr">Select</a>
           </div>
         </div>
 
         <div class="col-sm-4">
-          <div class="package-column  special-column">
-            <span class="sale-label uppercase">Hot!</span>
-            <h6 class="package-title">Platinum</h6>
-            <div class="package-price">
-              <span class="currency">$</span>5000
+          <div class="package-column special-column d-flex flex-column justify-content-between">
+            <div>
+              <span class="sale-label uppercase">Best!</span>
+              <div class="package-logo">
+                <img src="@/styles/img/diamond-stamp.png" width="200px">
+              </div>
+              <div class="package-detail">
+                <ul>
+                  <li><span class="fa fa-check check-icon"></span>Team wallet vested</li>
+                  <li><span class="fa fa-check check-icon"></span>Public Presale (no whitelist)</li>
+                  <li><span class="fa fa-check check-icon"></span>Safe code</li>
+                  <li><span class="fa fa-check check-icon"></span>No backlist functions</li>
+                  <li><span class="fa fa-check check-icon"></span>Dev team fully doxxed to core team</li>
+                  <li><span class="fa fa-check check-icon"></span>Anti Rug BSC / Rug proof</li>
+                  <li><span class="fa fa-check check-icon"></span>Multi sig wallet</li>
+                </ul>
+              </div>
             </div>
-            <div class="package-detail">
-              <ul>
-                <li><span class="fa fa-check check-icon"></span>Team wallet vested</li>
-                <li><span class="fa fa-check check-icon"></span>Public Presale (no whitelist)</li>
-                <li><span class="fa fa-check check-icon"></span>Safe code</li>
-                <li><span class="fa fa-check check-icon"></span>No backlist functions</li>
-                <li><span class="fa fa-check check-icon"></span>Dev team fully doxxed to core team</li>
-                <li><span class="fa fa-check check-icon"></span>Anti Rug BSC / Rug proof</li>
-                <li><span class="fa fa-check check-icon"></span>Multi sig wallet</li>
-              </ul>
-            </div>
-            <a href="#" class="btn btn-lg btn-outline-clr">Buy now</a>
+            <a href="#" class="btn btn-lg btn-outline-clr">Select</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="team" class="section align-center">
+  <section id="team" class="section bg-gray align-center">
     <div class="container">
       <span class="icon section-icon icon-faces-users-04"></span>
       <h3>Team</h3>
@@ -341,7 +338,7 @@
     </div>
   </section>
 
-  <section id="partners" class="section align-center">
+  <section id="partners" class="section bg-gray align-center">
     <div class="container">
       <span class="icon section-icon icon-documents-bookmarks-12"></span>
       <h3>Partners</h3>
@@ -356,10 +353,10 @@
     </div>
   </section>
 
-  <section id="register" class="section overlay overlay-clr bg-cover bg light-text align-center">
+  <section id="register" class="section bg bg-cover bg light-text align-center">
     <div class="container">
       <div class="d-flex align-items-center">
-        <img src="@/styles/img/team/midnight-logo.jpg" alt="CryptoWhale" width="120" class="img-responsive">
+        <img src="@/styles/img/ms-new.png" alt="CryptoWhale" width="120" class="img-responsive">
       </div>
       <h2>Join our family now!</h2>
       <p>Everyone is welcomed to be part of our family. Let's change the bsc space together!</p>
