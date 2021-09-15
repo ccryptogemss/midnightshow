@@ -99,6 +99,20 @@
   justify-content: center;
 }
 
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-us {
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  align-self: center;
+}
+
 .pull-right {
   float: right;
 }
@@ -2249,6 +2263,11 @@ span {
   .sub-title,
   .sub-title.big {
     font-size: 15px;
+  }
+
+  .buy-btn,
+  .join-us {
+    display: none !important;
   }
 }
 /* ----------------------------------------------------------------------------
@@ -6616,7 +6635,25 @@ button[type="submit"] .loading {
 }
 @media (max-width: 480px) {
   .header .buy-btn {
-    display: inline-block;
+    display: none;
+  }
+
+  #logo {
+    width: 100px;
+  }
+
+  .navigation-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation-container {
+    padding-left: 0 !important;
+  }
+
+  .navigation-container #navigation {
+    position: absolute;
+    width: 100%;
   }
 }
 /* ----------------------------------------------------------------------------

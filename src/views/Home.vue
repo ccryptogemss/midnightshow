@@ -31,7 +31,7 @@
       <div class="container">
         <div class="col-sm-2 col-xs-12 navigation-header">
           <a href="#" class="logo">
-            <img src="@/styles/img/ms-new.png" width="80">
+            <img id="logo" src="@/styles/img/ms-text-logo.png" width="160">
           </a>
           <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
             <span class="icon-bar"></span>
@@ -42,7 +42,7 @@
 
         <div class="col-sm-10 col-xs-12 navigation-container">
           <div id="navigation" class="navbar-collapse collapse">
-            <ul class="navigation-list pull-left light-text">
+            <ul class="navigation-list light-text">
               <li class="navigation-item"><a href="#about" class="navigation-link">About</a></li>
               <li class="navigation-item"><a href="#services" class="navigation-link">Services</a></li>
               <li class="navigation-item"><a href="#team" class="navigation-link">Team</a></li>
@@ -50,8 +50,6 @@
               <li class="navigation-item"><a href="#whitepaper" class="navigation-link">Whitepaper</a></li>
               <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
             </ul>
-
-            <a href="https://t.me/TheMidnightShow" target="_blank" class="pull-right buy-btn">Join Us</a>
           </div>
         </div>
       </div>
@@ -144,7 +142,7 @@
           <div class="package-column d-flex flex-column justify-content-between">
             <div>
               <div class="package-logo">
-                <img src="@/styles/img/gold-stamp.png" width="200px">
+                <img src="@/styles/img/dyor-new.png">
               </div>
               <div class="package-detail">
                 <ul>
@@ -163,7 +161,7 @@
           <div class="package-column d-flex flex-column justify-content-between">
             <div>            
               <div class="package-logo">
-                <img src="@/styles/img/platinum-stamp.png" width="200px">
+                <img src="@/styles/img/gold.png" width="200px">
               </div>
               <div class="package-detail">
                 <ul>
@@ -184,7 +182,7 @@
             <div>
               <span class="sale-label uppercase">Best!</span>
               <div class="package-logo">
-                <img src="@/styles/img/diamond-stamp.png" width="200px">
+                <img src="@/styles/img/diamond.png" width="200px">
               </div>
               <div class="package-detail">
                 <ul>
@@ -307,20 +305,20 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="testimonial">
-            <article class="text-box">The Midnight Core team is the best to work with</article>
+            <article class="text-box">The Midnight Team has been 100% professional and honest with all of their interactions with Atomic. It's been a pleasure to work with them and multiple team members are involved everyday, getting their hands dirty, helping me in every way possible.</article>
             <div class="author-block">
-              <strong class="name">John Doe</strong>
-              <small class="text-alt company">Atomic Token</small>
+              <strong class="name">The Astral</strong>
+              <small class="text-alt company">Atomic Token Owner</small>
             </div>
           </div>
         </div>
 
         <div class="col-sm-4">
           <div class="testimonial">
-            <article class="text-box">The Midnight Show is the best group in the bsc space!</article>
+            <article class="text-box">Ghost (TMS Staff member) has been awesome in moderating, really responsive, adaptive and proactive guy. Great to have around! Keep it up 💪</article>
             <div class="author-block">
-              <strong class="name">Michael Scherzzinger</strong>
-              <small class="text-alt company">DuxDoge</small>
+              <strong class="name">Kit Aid</strong>
+              <small class="text-alt company">AdaCatto - Core Team</small>
             </div>
           </div>
         </div>
